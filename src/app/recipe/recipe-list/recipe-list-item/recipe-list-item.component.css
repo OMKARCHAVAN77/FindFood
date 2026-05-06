@@ -1,0 +1,14 @@
+i{
+    position:absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 26px;
+    color: #008000;
+}
+.rec-veg{
+    color: #008000;
+}
+
+.rec-non-veg{
+    color: red;
+}

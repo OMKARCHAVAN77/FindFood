@@ -1,0 +1,45 @@
+<!-- <p>shopping-edit works!</p> -->
+
+<div class="row">
+    <div class="col-3">
+        <div class="form-group">
+            <input type="text" placeholder="Ing Name" class="form-control form-control-sm" id="iname" #ingName>
+        </div>
+    </div>
+    <div class="col-3">
+        <div class="form-group">
+            <input type="text" placeholder="Ing Brand" class="form-control form-control-sm" id="ibrand" #ingBrand>       
+         </div>
+    </div>
+    <div class="col-3">
+        <div class="form-group">
+            <input type="text" placeholder="Ing Price" class="form-control form-control-sm" id="iprice" #ingPrice>      
+          </div>
+    </div>
+    <div class="col-3">
+        <div class="form-group">
+            <input type="text" placeholder="Ing Quantity" class="form-control form-control-sm" id="iquantity" #ingQuantity>    
+            </div>
+    </div>
+    <div class="col-3">
+        <div class="form-group">
+            <input type="text" placeholder="Ing Unit" class="form-control form-control-sm" id="iunit" #ingUnit>      
+          </div>
+    </div>
+    <div class="col-3">
+        <div class="form-group">
+            <input type="text" placeholder="Ing specification" class="form-control form-control-sm" id="ispec" #ingspec>      
+          </div>
+    </div>
+    <div class="col-3">
+        <div class="form-group">
+            <input type="text" placeholder="Ing Image" class="form-control form-control-sm" id="iimage" #ingImage>     
+        </div>
+    </div>
+    <div class="col-3">
+        <div class="form-group">
+            <button class=" btn btn-primary btn-block btn-sm" (click)="createIngredient(ingName.value) ">Create Ingredient
+            </button>
+        </div>
+    </div>
+</div>

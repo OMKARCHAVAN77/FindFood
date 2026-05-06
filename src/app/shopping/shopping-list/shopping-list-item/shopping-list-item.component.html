@@ -1,0 +1,21 @@
+<!-- <p>shopping-list-item works!</p> -->
+<a class="list-group-item list-group-item-action">
+    <div class="row" >
+        <div class="col-2">
+            <img class="w-100" [src]="ingredient.image" alt="">
+        </div>
+        <div class="col-4">
+            <h5><sub>Name:</sub>{{ingredient.brand}} {{ingredient.name}}</h5>
+            <span><sub>Specification:</sub>{{ingredient.spec}}</span>
+        </div>
+        <div class="col-2">
+            <h5><sub>Quantity:</sub>{{ingredient.quantity}} {{ingredient.unit}}</h5>
+        </div>
+        <div class="col-2">
+            <h6><sub>Price per unit</sub>{{ingredient.price |currency:'INR'}}</h6>
+        </div>
+        <div class="col-2">
+            <h5>{{ingredient.price * ingredient.quantity |currency:'INR' }}</h5>
+        </div>
+    </div>
+</a>

@@ -1,0 +1,19 @@
+
+<a class="list-group-item list-group-item-action" (click)="onClick()">
+    <i class="fa fa-caret-square-o-up " aria-hidden="true" [ngClass]="{
+        'rec-veg': recipe.category ==='Veg',
+        'rec-non-veg': recipe.category ==='Non-veg'
+    }"></i>
+ <div class="row">
+    <div class="col-3">
+        <img class="w-100" [src]="recipe.image" alt="">
+    </div>
+  <div class="col-6">
+    <h5>{{recipe.name}}</h5>
+    <span>{{recipe.description}}</span>
+  </div>
+    <div class="col-3">
+      {{recipe.price | currency:'INR'}}
+    </div>
+ </div>
+</a>
