@@ -5,7 +5,7 @@
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist/find-food/browser"
+        "distDir": "dist/ea36-recipe/browser"
       }
     }
   ],
